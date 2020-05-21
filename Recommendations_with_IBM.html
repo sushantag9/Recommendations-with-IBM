@@ -14614,7 +14614,8 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Provide your response here.</strong></p>
+<p><strong>Provide your response here.</strong>
+We can make recommendations to new users by using the technique of recommending the most popular articles to them. Most popular article is more prominant to the users.</p>
 
 </div>
 </div>
@@ -15017,7 +15018,9 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Provide your response here.</strong></p>
+<p><strong>Provide your response here.</strong>
+The Singular Value Decomposition(SVD) is used here because in this user-item matrix dataframe, 
+moreover there are no missing values which was why FunkSVD was used.</p>
 
 </div>
 </div>
@@ -15605,6 +15608,19 @@ The top 10 recommendations for user 20 are the following article names:
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -15616,7 +15632,15 @@ The top 10 recommendations for user 20 are the following article names:
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Your response here.</strong></p>
+<p><strong>Provide your response here</strong>
+Obervations--</p>
+<p>By observing the graph below, we can see that Test Accuracy decreases with the increase in Number of Latent Features even though Training Accuracy is seen increasing. 
+Concluding on this, we can say that accuracy is not proper, since the predicted inetractions is imbalanced between users and articles.</p>
+<p>We could use A/B testing to test how well our recommendation engine is working in practice to further engage users. We seperate two groups of user, one uses our recommendation engine and another uses random recommendation.</p>
+<p>In the project, User-user based Collabrative filltering and singular value decomposition (SVD) method for recommendations. But these method worked best when respective user has some old article inetractions.</p>
+<p>To imporove on the model we can:</p>
+<p>-Users data can be equally divided randomly(cross validation, k-fold) to keep aside bias that are there in the data.</p>
+<p>-Different hypothesis test can be performed with both the splitted users data group and can be recommended using matrix-factorization</p>
 
 </div>
 </div>
